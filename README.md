@@ -1,5 +1,7 @@
 # Zen Bot 🤖
 
+![Bot Demo](./docs/demo.gif)
+
 A modern Discord bot project built with `discord.js` (v14).
 
 ## 🚀 Getting Started

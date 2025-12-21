@@ -72,3 +72,25 @@ All updates and changes to the Zen Bot project will be tracked here.
 ### Updated
 - Synced `README.md` and `.env.example` with latest suggested model versions (`gemini-3-flash-preview` and `gemini-2.5-flash-image`).
 - Pushed updates to GitHub.
+
+## [2025-12-21] - Public Sample Project
+### Added
+- Created a sample project directory `xar_ai_discord_bot` as a copy of the current codebase.
+- Added `xar_ai_discord_bot/` to the main project's `.gitignore`.
+- Initialized and pushed the sample project to a new **public** GitHub repository: [xar_ai_discord_bot](https://github.com/pkkarn/xar_ai_discord_bot).
+
+## [2025-12-21] - Internal Documentation
+### Added
+- Created a `docs/` folder.
+- Added `explanation_init.md` with a comprehensive technical breakdown of the bot's architecture, including ESM, modular AI integration, and request lifecycle.
+
+## [2025-12-21] - Visual Documentation
+### Added
+- Installed `ffmpeg` via Homebrew.
+- Processed `sample_zen_bot.mp4` into an optimized `demo.gif`.
+- Integrated the demo GIF into the primary `README.md` for better project visualization.
+
+## [2025-12-21] - Command Reference Utility
+### Added
+- Created `docs/commands.md`.
+- Documented essential commands for FFmpeg (MP4 to GIF), GitHub CLI, Git, and generic bot management to serve as a quick reference for the developer.
