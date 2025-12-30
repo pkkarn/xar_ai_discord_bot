@@ -1,6 +1,8 @@
 # Zen Bot 🤖
 
-![Bot Demo](./docs/demo.gif)
+![Zen Bot Thumbnail](./docs/thumbnail.png)
+
+![Bot Demo](./docs/insta_demo.gif)
 
 A modern Discord bot project built with `discord.js` (v14).
 
@@ -27,7 +29,9 @@ A modern Discord bot project built with `discord.js` (v14).
    GUILD_ID=your_guild_id_here (optional, for faster dev testing)
    GEMINI_API_KEY=your_gemini_api_key_here
    GEMINI_TEXT_MODEL=gemini-3-flash-preview
-GEMINI_IMAGE_MODEL=gemini-2.5-flash-image
+   GEMINI_IMAGE_MODEL=gemini-2.5-flash-image
+   INSTAGRAM_ACCESS_TOKEN=your_instagram_access_token
+   INSTAGRAM_BUSINESS_ACCOUNT_ID=your_instagram_account_id
    ```
    *Tip: To find your GUILD_ID, enable **Developer Mode** in Discord Settings > Advanced, then right-click your server icon and select "Copy Server ID".*
 
@@ -46,7 +50,9 @@ npm start
 ## 🛠 Features
 - `/reverse [text]`: Reverses any text you input.
 - `/ask [prompt]`: Chat with Google's latest Gemini 1.5 Flash model directly in Discord.
-- `/vis [prompt]`: Generate stunning AI images using Gemini 2.0 Flash.
+- `/vis [prompt]`: Generate stunning AI images using Gemini 2.0 Flash and automatically **post them to Instagram**.
+
+> **⚠️ Warning:** The Instagram integration module is **not available** in this public repository. Please contact the developer to obtain the full source code.
 
 ## 🔗 How to add the Bot to your Server
 1. Go to the [Discord Developer Portal](https://discord.com/developers/applications).
